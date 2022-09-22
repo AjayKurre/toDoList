@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    place-items: center;
+    grid-template-rows: max-content;
+}
+
+.logo {
+    margin: 3rem 0 1.5rem;
+}
+
+.container {
+    margin: 1.5rem 0;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    
+    width: max(80%, 18rem);
+}
+
+.element  {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    place-items: center;
+    height: 20rem;
+    padding: 1rem 1rem 0rem;
+
+    width: 13rem; 
+    background-color: rgb(255, 255, 148);
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(231, 205, 55, 0.7);
+}
+
+textarea {
+    height: 100%;
+    background-color: rgb(255, 255, 148);
+    width: 100%;
+    
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    resize: none;
+}
+
+.round {
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.button {
+    cursor: pointer;
+
+    background-color: #fadd3a;
+    color: #fff;
+    font-size: 1.5rem;
+
+    border: none;
+}
+
+.buttons {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
